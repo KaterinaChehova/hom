@@ -1,0 +1,112 @@
+/*Блочная модель*/
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3vw;
+}
+
+.general_container {
+
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 25vw;
+}
+
+.main_part {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 65vw;
+    height: 25vw;
+
+}
+
+#h4_main {
+    display: flex;
+    justify-content: center;
+    height: 20vw;
+
+}
+
+.article {
+    height: 5vw;
+    width: 31vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 0;
+}
+
+#article3 {
+    display: flex;
+    flex-grow: 1;
+
+}
+
+.article_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 8px;
+
+}
+
+.article_column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.6vw;
+    padding: 6px;
+    width: 97%;
+
+}
+
+.aside {
+    display: flex;
+    width: 34vw;
+    justify-content: center;
+
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 5vw;
+}
+
+.section {
+    display: flex;
+    height: 4vw;
+    width: 20vw;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/*Оформление*/
+header,
+footer {
+    background-color: rgba(196, 181, 209, 0.637);
+}
+
+article {
+    background-color: rgb(238, 226, 148);
+}
+
+aside {
+    background-color: rgb(202, 219, 200);
+}
+
+main,
+section {
+    background-color: white;
+}
+
+/*Типографика*/
+header {
+    font-family: 'Playfair Display', serif, sans-serif;
+}
